@@ -1,0 +1,54 @@
+/* src/app/chat/chat.component.css */
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .messageContainer {
+    margin-bottom: 10px;
+  }
+  
+  .userMessage {
+    background-color: #aeeaff; /* Light blue for user messages */
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 4px;
+  }
+  
+  .responseMessage {
+    background-color: #e0e0e0; /* Light gray for responses */
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 4px;
+  }
+  
+  .loadingIndicator {
+    background-color: #e0e0e0; /* Light gray for loading indicator */
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 4px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .button {
+    padding: 8px;
+    font-size: 16px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

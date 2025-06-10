@@ -1,0 +1,14 @@
+<!-- src/app/chat/chat.component.html -->
+<div class="container">
+  <div class="messageContainer">
+    <div *ngFor="let message of messages" class="{{ message.type === 'user' ? 'userMessage' : 'responseMessage' }}">
+      <div [innerHtml]="message.content"></div>
+    </div>
+    <div *ngIf="isChatbotResponding" class="responseMessage loadingIndicator">
+      Chatbot is typing...
+    </div>
+  </div>
+  <input type="text" [(ngModel)]="input" (keydown)="handleKeyDown($event)" class="input" />
+  <button (click)="sendMessage()" class="button">Send</button>
+  <button (click)="exportChat()" class="button">Export Chat</button>
+</div>

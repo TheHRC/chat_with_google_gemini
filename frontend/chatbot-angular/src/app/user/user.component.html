@@ -1,0 +1,7 @@
+<!-- src/app/user/user.component.html -->
+
+<div style="margin: auto; text-align: center; padding: 10px" *ngIf="isVisible">
+  <label for="username">Enter your username:</label>
+  <input id="username" [(ngModel)]="username" />
+  <button (click)="setUsername()">Set Username</button>
+</div>
