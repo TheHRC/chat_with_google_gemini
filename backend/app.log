@@ -1,0 +1,5 @@
+2025-06-10 12:27:42,802 - chatbot - INFO - Google Gemini API initialized successfully
+2025-06-10 12:28:05,446 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-10 12:28:28,201 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 5 is greater than number of elements in index 3, updating n_results = 3
+2025-06-10 12:29:09,876 - chatbot - INFO - Google Gemini API initialized successfully
+2025-06-10 12:29:20,930 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.

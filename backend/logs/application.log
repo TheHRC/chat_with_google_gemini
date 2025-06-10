@@ -1,0 +1,6 @@
+2025-06-10 12:45:38,425 - root - INFO - gemini_chatbot logging initialized at 2025-06-10T12:45:38.425963
+2025-06-10 12:46:18,246 - root - INFO - gemini_chatbot logging initialized at 2025-06-10T12:46:18.246285
+2025-06-10 12:46:20,545 - root - INFO - Using default embeddings path: C:\Users\princ\workspace\projects\chatbot_with_google_gemini\backend\embeddings
+2025-06-10 12:46:21,306 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-10 12:50:10,294 - root - INFO - gemini_chatbot logging initialized at 2025-06-10T12:50:10.294281
+2025-06-10 12:50:23,284 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
